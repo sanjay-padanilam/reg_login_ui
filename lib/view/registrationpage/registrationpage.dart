@@ -15,9 +15,9 @@ class _RegistrationpageState extends State<Registrationpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightBlueAccent,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.white,
         title: Text("registration page"),
         centerTitle: true,
       ),
@@ -100,6 +100,8 @@ class _RegistrationpageState extends State<Registrationpage> {
                 ),
               ),
               ElevatedButton(
+                  style: ButtonStyle(
+                      backgroundColor: WidgetStatePropertyAll(Colors.blue)),
                   onPressed: () {
                     setState(() {});
                     if (_FormKey.currentState!.validate()) {

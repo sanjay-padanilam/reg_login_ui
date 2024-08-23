@@ -26,9 +26,9 @@ class _LoginpageState extends State<Loginpage> {
         },
         child: Icon(Icons.check),
       ),
-      backgroundColor: Colors.lightBlueAccent,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.white,
         title: Text("login page"),
       ),
       body: Padding(
